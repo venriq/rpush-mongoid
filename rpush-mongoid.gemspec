@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rpush::Mongoid::VERSION
   spec.authors       = ["Ian Leitch"]
   spec.email         = ["port001@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Mongoid dependencies for Rpush.}
+  spec.description   = %q{Mongoid dependencies for Rpush.}
   spec.homepage      = "https://github.com/rpush/rpush-mongoid"
   spec.license       = "MIT"
 
@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+
   spec.add_runtime_dependency "mongoid", "~> 4.0.0"
   spec.add_runtime_dependency "mongoid-autoinc", "~> 4.0.0"
 end
