@@ -21,6 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 12.1"
 
-  spec.add_runtime_dependency "mongoid", "~> 6.2"
-  spec.add_runtime_dependency "mongoid-autoinc", "~> 6.0"
+  spec.add_runtime_dependency "mongoid", "~> 6.4.4"
+  spec.add_runtime_dependency "mongoid-autoinc", "~> 6.0.3"
 end
